@@ -24,3 +24,10 @@ if (result[1] !== 4){
 if (result[2] !== 6){
   throw new Error(`Expeceted to find 6, but found  ${result[0]}`)
 }
+
+
+
+//* 3 Issues
+//* 1. One Test Fail Will Stop All Tests
+//* 2. Difficult to find the exact test that caused error
+//* 3. Variables are scopre to file
